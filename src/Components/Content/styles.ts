@@ -207,6 +207,9 @@ const IconCSS = css`
         color: var(--white);
     }
 `;
+export const EasyNavigation = styled.div`
+
+`;
 
 export const Brand1 = styled(RiGameFill)`${IconCSS}`;
 export const Brand2 = styled(GiSoccerBall)`${IconCSS}`;

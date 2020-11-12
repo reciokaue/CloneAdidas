@@ -12,8 +12,6 @@ const Featured: React.FC = () => {
 
   function SizeScreen(){
     var windowWidth = window.outerWidth;
-    console.log(windowWidth)
-
     if(windowWidth >= 1024){
       setScroll(1024)
       setMax(-3072)
@@ -25,7 +23,6 @@ const Featured: React.FC = () => {
       setMax(-3840)
     }
   }
-
 
   useEffect(() =>{
   const Page = (document.getElementById("page") as HTMLElement);

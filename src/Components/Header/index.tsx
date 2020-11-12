@@ -1,4 +1,5 @@
 import React from "react";
+import HamburgerMenu from "../HamburgerMenu";
 import TabProduct from "../TabProduct";
 
 import {
@@ -16,6 +17,7 @@ import {
 const Header: React.FC = () => {
   return (
     <Container>
+      <HamburgerMenu/>
       <LogoContainer>
         <AdidasIcon />
       </LogoContainer>

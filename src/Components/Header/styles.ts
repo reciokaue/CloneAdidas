@@ -14,15 +14,23 @@ export const Container = styled.div`
 
     grid-template-areas: 'logo brandRow'
                          'logo productRow';
-    border-bottom: 1px solid var(--gray);
     background: var(--black);
+    @media(max-width: 960px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
 `;
 export const BrandRow = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
     grid-area: brandRow;
-
+    
+    @media(max-width: 960px){
+        display: none;
+    }
     > a{
         display: flex;
         align-items: center;
@@ -47,7 +55,6 @@ export const LogoContainer = styled.div`
     align-items: center;
     justify-content: center;
     grid-area: logo;
-
 `;
 export const Products = styled.div`
     display: flex;
@@ -79,6 +86,9 @@ export const Products = styled.div`
             display: grid;
         }
     }  
+    @media(max-width: 960px){
+        display: none;
+    }
 `;
 export const Search = styled.div`
     display: flex;
@@ -87,6 +97,12 @@ export const Search = styled.div`
     width: fit-content;
     min-width: 140px;
     max-width: 300px;
+    @media(max-width: 960px){
+        > div > input{display: none;}
+        &{
+            min-width: 0;
+        }
+    }
     > div{
         display: flex;
         align-items: center;
@@ -97,8 +113,10 @@ export const Search = styled.div`
         color: var(--senary);
         font-size: 13px;
         height: 32px;
-     }
+        
     }
+    }
+    
 `;
 
 export const AdidasIcon = styled(CgAdidas)`

@@ -20,6 +20,7 @@ const Footer: React.FC = () => {
       <History>
       <div>
           <div>
+
             <h1>ADIDAS: HISTÓRIA ESTILO E MATERIAL ESPORTIVO DESDE 1949</h1>
             <p>
               O esporte mantém o corpo e a mente em forma. E as pessoas mais

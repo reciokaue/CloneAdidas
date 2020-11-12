@@ -12,8 +12,9 @@ import {
   Brand1,
   Brand2,
   Brand3,
-  Brand4
+  Brand4,
 } from "./styles";
+import DropNavigator from "../DropNavigator";
 
 const Content: React.FC = () => {
   return (
@@ -22,6 +23,26 @@ const Content: React.FC = () => {
         src="https://images.pexels.com/photos/3797/black-and-white-sport-fight-boxer.jpg?"
         alt=""
       />
+      <DropNavigator/>
+        
+          {/* {Data.map((datta) =>(
+            <Dropdown title={datta.title}>
+
+                {datta.columns.map((mamada) =>(
+                  <>
+                  <h1> {mamada.subtitle} </h1>
+                    {mamada.itens.map((maminhos) =>(
+                      <>
+                        <span>{maminhos.name}</span>
+                      </>
+                    ))}
+                  </>
+                ))}
+
+            </Dropdown>
+          ))} */}
+
+     
       <TeamRow>
         <h2>Encontre seu time</h2>
         <div>
