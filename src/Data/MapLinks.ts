@@ -1,5 +1,3 @@
-import { Colmun } from "../Components/TabProduct/styles";
-
 export default[
     {column: [
         {title: "PRODUTOS", h1: true},
