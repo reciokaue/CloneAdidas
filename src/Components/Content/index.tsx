@@ -24,25 +24,6 @@ const Content: React.FC = () => {
         alt=""
       />
       <DropNavigator/>
-        
-          {/* {Data.map((datta) =>(
-            <Dropdown title={datta.title}>
-
-                {datta.columns.map((mamada) =>(
-                  <>
-                  <h1> {mamada.subtitle} </h1>
-                    {mamada.itens.map((maminhos) =>(
-                      <>
-                        <span>{maminhos.name}</span>
-                      </>
-                    ))}
-                  </>
-                ))}
-
-            </Dropdown>
-          ))} */}
-
-     
       <TeamRow>
         <h2>Encontre seu time</h2>
         <div>

@@ -10,28 +10,15 @@ export const Container = styled.div`
     
     @media(min-width: 1024px){
         max-width: 1024px;
-        & > section {
-            background: #f0f;
-            display: flex!important;
-        }
     }
     @media(max-width: 1023px){
         max-width: 768px;
-        & > section > span{
-            background: #f0f;
-        }
     }
     @media(max-width: 767px){
         max-width: 512px;
-       & > section > span{
-            background: #f0f;
-        }
     }
     @media(max-width: 535px){
         max-width: 256px;
-        span{
-            background: #f0f;
-        }
     }
 
     > h1{

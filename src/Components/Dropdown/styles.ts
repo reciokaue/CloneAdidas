@@ -21,7 +21,7 @@ export const Container = styled.div`
         align-items: center;
         width: 100%;
         color: var(--white);
-        > h1,a{
+        > h1, span{
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -37,7 +37,7 @@ export const Container = styled.div`
             transition: .3s;
             letter-spacing: 2px;
         }
-        a{
+        > span{
             border-top: 1px solid var(--primary);
             line-height: 1.1;
             font-size: 16px;
@@ -76,7 +76,7 @@ export const DropContainer = styled.div`
     }
 
     transition: .2s;
-    > a{
+    > h2{
         display: flex;
         align-items: center;
         justify-content: flex-start;

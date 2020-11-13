@@ -7,6 +7,13 @@ export default createGlobalStyle`
         box-sizing: border-box;
 
         -webkit-font-smoothing: antialiasing;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
     }
     html,body, #root{
         height: 100%;
@@ -20,6 +27,7 @@ export default createGlobalStyle`
 
         font-family: 'Oswald', sans-serif;
     }
+    
     :root{
     --black: #000;
     --primary: #36393f;

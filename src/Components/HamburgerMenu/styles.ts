@@ -12,6 +12,9 @@ export const Container = styled.div`
         justify-content: center;
         align-items: center;
     }
+    @media(min-width: 960px){
+        display: none;
+    }
 `;
 export const DragContainer = styled.div`
     position: fixed;

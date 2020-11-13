@@ -73,8 +73,8 @@ const Featured: React.FC = () => {
         <Card>4</Card>
 
       </div>  
-      <p>{range}px</p>
-      <p>{maxScroll}</p>
+      {/* <p>{range}px</p> */}
+      {/* <p>{maxScroll}</p> */}
       <section>
       <span className={'web tablet '+ (range === -0? 'on': '')} onClick={() => setRange(0)}/>
       <span className={range === -256? 'on': ''} onClick={() => setRange(-256)}/>

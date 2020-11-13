@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Dropdown from '../Dropdown';
 
 import { Container} from './styles';
@@ -14,15 +14,15 @@ const DropNavigator: React.FC = () => {
             column.drop?(
               <Dropdown lv={1} title={column.subtitle}>
               {column.itens.map((item) =>(
-                <a className="lv1A">
+                <h2 className="lv1A">
                   {item.name}
-                </a>
+                </h2>
               ))}
             </Dropdown>
             ):(
-              <a>
+              <h2>
                 {column.subtitle}
-              </a>
+              </h2>
             )     
           ))}
         </Dropdown>

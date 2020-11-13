@@ -86,7 +86,6 @@ export const NewsLetter = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    /* padding: 40px 0; */
     > div:nth-child(1) {
       font-weight: bold;
       width: 440px;
@@ -119,6 +118,9 @@ export const LinkMap = styled.div`
   width: 100%;
   margin: 0 auto;
   padding: 40px 0px 50px;
+  @media(max-width: 960px){
+      display: none;
+  }
   > div {
     @media(max-width: 500px){
         max-width: 100%;
@@ -175,7 +177,9 @@ export const Payment = styled.div`
         display: flex;
         align-items: center;
         flex-direction: column;
+
         > h1 {
+            @media(max-width: 630px){ padding: 10px;}
             width: 100%;
             font-size: 14px;
             font-weight: normal;
@@ -214,10 +218,20 @@ export const Payment = styled.div`
 
                     transform: translateY(-148px); 
                     transition: .5s;
+                    @media(max-width: 630px){
+                        font-size: 15px;
+                        transform: translateY(-5px); 
+                    }
                 }
                 > svg{
                     color: var(--white);
-
+                    
+                    @media(max-width: 630px){
+                        width: 70px;
+                        height: 70px;
+                        margin: 0px 5px 0 5px!important;
+                        transform: translateY(-5px);
+                    }
                     width: 120px;
                     height: 120px;
                     margin: 0px 20px 0 20px!important;
@@ -231,13 +245,19 @@ export const Payment = styled.div`
 `;
 export const Bureaucratic = styled.div`
     width: 100%;
+    max-width: 100vw;
     height: 125px;
     background: var(--black);
+    @media(max-width: 750px){
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    @media(max-width: 1024px){
+        padding: 10px;
+    }
+    
     > div{
-        @media(max-width: 500px){
-            max-width: 100%;
-            width: 100%;
-        }
         margin: 0 auto;
         max-width: 1024px;
         width: 100%;
@@ -255,6 +275,10 @@ export const Bureaucratic = styled.div`
             line-height: 20px;
         }
         > h1{
+            @media(max-width: 750px){
+                justify-content: center;
+            }
+            
            font-size: 12px;
            line-height: 12px;
            text-align: start; 

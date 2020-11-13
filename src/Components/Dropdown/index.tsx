@@ -68,7 +68,7 @@ const Dropdown: React.FC<Props> = (Props) => {
   return (
     <Container>
       <span onClick={switchDrop} className={down === true? 'droped': ''}>
-        {Props.lv === 0?<h1>{Props.title}  <Arrow/></h1>: <a>{Props.title}  <Arrow/></a>}
+        {Props.lv === 0?<h1>{Props.title}  <Arrow/></h1>: <span>{Props.title}  <Arrow/></span>}
       </span>  
         
       <DropContainer className={down? 'ContainerDroped': ''} id={Props.title}>
