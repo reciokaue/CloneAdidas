@@ -6,10 +6,10 @@ e por isso o utilizei como modelo de base para desenvolvimento do projeto
 
 # Screen Preview
 
-    (https://github.com/reciokaue/CloneAdidas/blob/main/public/adidasClone_Fullpage.png)
+    ![Full page screen preview](https://github.com/reciokaue/CloneAdidas/blob/main/public/adidasClone_Fullpage.png)
 # Header detail Preview
 
-    (https://github.com/reciokaue/CloneAdidas/blob/main/public/header.png)
+    ![Header itens preview](https://github.com/reciokaue/CloneAdidas/blob/main/public/header.png)
 ## Available Scripts
 
     In the project directory, you can run:
