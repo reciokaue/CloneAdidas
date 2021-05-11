@@ -5,11 +5,11 @@ O site da adidas é um e-comerce de escala global e tem uma aparecencia muito ag
 e por isso o utilizei como modelo de base para desenvolvimento do projeto
 
 # Screen Preview
+![Full page screen preview](https://github.com/reciokaue/CloneAdidas/blob/main/public/adidasClone_Fullpage.png)
 
-    ![Full page screen preview](https://github.com/reciokaue/CloneAdidas/blob/main/public/adidasClone_Fullpage.png)
 # Header detail Preview
+![Header itens preview](https://github.com/reciokaue/CloneAdidas/blob/main/public/header.png)
 
-    ![Header itens preview](https://github.com/reciokaue/CloneAdidas/blob/main/public/header.png)
 ## Available Scripts
 
     In the project directory, you can run:
